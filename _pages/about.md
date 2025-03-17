@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in HPC at University Of Salerno. Motto: Always motivated, never stressed!
+subtitle: PhD Student in HPC at University Of Salerno. "Motto: Always motivated, never stressed!"
 profile:
   align: right
   image: foto_personale.jpg
