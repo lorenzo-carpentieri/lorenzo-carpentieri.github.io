@@ -6,13 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Lorenzo
 last_name: Carpentieri
 contact_note: lcarpentieri@unisa.it
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I'm a PhD student in the Department of Computer Science at the University of Salerno under the supervision of prof. Biagio Cosenza.
-  I earned my Master’s degree in Computer Science with a specialization on Security from the University of Salerno in 2022.
-  During my thesis work I contributed to the EuroHPC project LiGate by porting and optimizing LiGen, a framework for drug discovery. 
-  This experience allowed me to deepen my expertise in performance portability and HPC optimization. 
-  Currently, my research focuses performance portability, programming models and optimization techniques for energy-efficient and approximate computing in modern HPC systems.
-  
+description: > # the ">" symbol means to ignore newlines until "footer_text:"  
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
