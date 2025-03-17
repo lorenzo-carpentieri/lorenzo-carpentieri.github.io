@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: PhD Student in HPC at University Of Salerno. Motto: "Always motivated, never stressed!".
 profile:
   align: right
   image: prof_pic.jpg
@@ -27,8 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a PhD student in the Department of Computer Science at the University of Salerno under the supervision of prof. Biagio Cosenza. I earned my Master’s degree in Computer Science with a specialization on Security from the University of Salerno in 2022. During my thesis work I contributed to the EuroHPC project  <a href='#'>LiGate</a> by porting and optimizing LiGen, a framework for drug discovery. This experience allowed me to deepen my expertise in performance portability and HPC optimization. Currently, my research focuses performance portability, programming models and optimization techniques for energy-efficient and approximate computing in modern HPC systems.
