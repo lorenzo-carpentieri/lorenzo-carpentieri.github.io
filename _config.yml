@@ -1,12 +1,6 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-exclude:
-  # - _news/announcement_*.md
-  - _pages/blog.md
-  # - _posts/
-  # - _projects/?_project.md
-  - assets/jupyter/blog.ipynb
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Lorenzo
