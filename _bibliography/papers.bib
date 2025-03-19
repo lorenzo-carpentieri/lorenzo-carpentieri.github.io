@@ -4,6 +4,27 @@
   author={Carpentieri, Lorenzo and Cosenza, Biagio},
   booktitle={Proceedings of the International Conference on Supercomputing (ICS 2025)},
   selected={true},
+  abstract={Approximate computing is an emerging paradigm that
+aims to exploit the inherent error tolerance of many applications,
+particularly in domains such as image processing and
+machine learning. Taking advantage of this property, applications
+can trade off accuracy for significant gains in performance
+and power consumption. Existing approximation
+techniques for GPUs are limited to very specific approaches,
+do not fully exploit the host-device execution model, and
+are often restricted in terms of programming models and
+supported target hardware. This paper introduces SYprox,
+a new approximate computing framework based on SYCL
+that allows programmers to easily implement heterogeneous
+approximated applications. SYprox supports multiple techniques,
+including data perforation, signal reconstruction, and
+mixed precision, and allows them to be combined to support
+a wide range of approximations. In particular, SYprox extends
+existing perforation approaches to allow both host
+and device data perforation. Experimental results show that
+SYprox’s approximations are Pareto dominant with respect
+to state-of-the-art approaches and are portable to AMD, Intel
+and NVIDIA GPUs.},
   year={2025}
 }
 
@@ -14,6 +35,7 @@
   author={Carpentieri, Lorenzo and De Caro, Antonio and Salimi Beni, Majid and Fan, Kaijie and Cosenza, Biagio},
   booktitle={Proceedings of the 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)},
   year={2025},
+  abstract={Energy efficiency has been a major challenge for exascale computing. Frequency scaling is a powerful technique to achieve energy savings in modern heterogeneous systems, and can be applied either at a coarse granularity, by application, or at a fine granularity, by setting the frequency for each computational kernel. The chosen granularity significantly impactsthe performance and energy consumption of applications due to frequency-change overhead. We propose a novel phase-based method that minimizesthe frequency-change overhead and improves performance andenergy efficiency on heterogeneous multi-GPU systems. Our approach detects different phases through application profilingand DAG analysis, and sets an optimal frequency for eachphase. Our methodology also considers MPI programs, where theoverhead can be hidden by overlapping frequency-change with communication. Experimental results show up to 37% energysaving and 1.87× speedup for various benchmarks on a singleGPU, and 68% energy saving and 3.63× speedup on two multi-GPU applications},
   selected={true},
   pdf={IPDPS25.pdf}
 }
@@ -24,6 +46,7 @@
   title={A Performance Analysis of Autovectorization on RVV RISC-V Boards},
   author={Carpentieri, Lorenzo and VazirPanha, Mohammad and Cosenza, Biagio},
   booktitle={Proceedings of the International Conference on Parallel, Distributed and Network-Based Processing (PDP 2025)},
+  abstract={The RISC-V instruction set architecture has become increasingly popular due to its open source and extensible design,making it a competitive choice in high-performance computingand embedded systems. The RISC-V Vector extension (RVV)empowers RISC-V processors with length-agnostic vectorizationcapabilities, a critical feature for efficiently handling parallelprocessing demands across different hardware. Compiler supportfor autovectorization allows to generate vector instructions au-tomatically without requiring any effort to programmers. Giventhe limited yet evolving compiler support for RVV, this paperoffers an in-depth examination of autovectorization capabilities inGCC and LLVM, for RVV version 0.7 and 1.0. We evaluated theautovectorization performance of LLVM, LLVM-EPI and GCCcompilers across 151 loops from the Test Suite for VectorizingCompilers (TSVC) ans seven real-world applications on the All-Winner D1 and BananaPi-F3 boards, representing RISC-V vectorhardware. Our study focuses on quantifying and comparing thelevel of vectorization each compiler achieves across a diverserange of vectorization patterns and workloads, providing insightinto their strengths and limitations with respect to RISC-V RVV.Our findings highlight that the LLVM-19 compiler outperformsGCC-14 in 76 out of 151 loops, and its performance is moresensitive to the selection of vector length. Additionally, tuningthe vector Length Multiplier (LMUL) parameter can lead toperformance improvements of up to 3x, and leveraging knowledgeof the vector length can further enhance LMUL optimization incompilers.},
   year={2025},
   pdf={PDP2025.pdf}
 }
@@ -34,6 +57,7 @@
   booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
   pages={1--13},
   selected={true},
+  abstract={Energy-efficient computing uses power management techniques such as frequency scaling to save energy. Implementing energy- efficient techniques on large-scale computing systems is challeng- ing for several reasons. While most modern architectures, including GPUs, are capable of frequency scaling, these features are often not available on large systems. In addition, achieving higher energy sav- ings requires precise energy tuning because not only applications but also different kernels can have different energy characteris- tics. We propose SYnergy, a novel energy-efficient approach that spans languages, compilers, runtimes, and job schedulers to achieve unprecedented fine-grained energy savings on large-scale heteroge- neous clusters. SYnergy defines an extension to the SYCL program- ming model that allows programmers to define a specific energy goal for each kernel. For example, a kernel can aim to minimize well-known energy metrics such as EDP and ED2P or to achieve predefined energy-performance tradeoffs, such as the best performance with 25% energy savings. Through compiler integration and a machine learning model, each kernel is statically optimized for the specific target. On large computing systems, a SLURM plug-in allows SYnergy to run on all available devices in the cluster, providing scalable energy savings. The methodology is inherently portable and has been evaluated on both NVIDIA and AMD GPUs. Experimental results show unprecedented improvements in energy and energy-related metrics on real-world applications, as well as scalable energy savings on a 64-GPU cluster.},
   pdf={SC23},
   year={2023}
 }
@@ -70,5 +94,7 @@
   author={Carpentieri, Lorenzo and D'Antonio, Marco and Fan, Kaijie and Crisci, Luigi and Cosenza, Biagio and Ficarelli, Federico and Cesarini, Daniele and Accordi, Gianmarco and Gadioli, Davide and Palermo, Gianluca and others},
   booktitle={Proceedings of the SC'23 Workshops of the International Conference on High Performance Computing, Network, Storage, and Analysis},
   pages={1790--1800},
+  pdf={SHIPS23},
+  abstract={Over the past few years, the adoption of energy efficiency techniques in modern computer systems is becoming increasingly relevant for sustainable computing. A well-known power management software technique for energy-efficient computing is frequency scaling which modulates the device frequency to explore the energy-performance trade-off. To achieve energy savings, a frequency tuning phase is required because different applications can have different energy and runtime behaviors depending on the frequency setting. Machine learning models can be used to predict energy and runtime, and therefore optimal frequency configurations, based on static or dynamic features extracted from the target application. While general-purpose energy models can be very accurate for a wide range of applications, their accuracy can be limited by the specific input of the target application. We present an energy characterization that spans the fields of drug discovery and magnetohydrodynamics by using two real-world applications as case studies: LiGen and Cronos. Additionally, to overcome the limitations of general-purpose approaches, we define two domain-specific energy models, which enhance the general-purpose energy models by leveraging the target application’s input parameter to increase the final accuracy. Experimental results show that for both applications, domain-specific models achieve a ten times lower error compared to the general-purpose energy models.},
   year={2023}
 }

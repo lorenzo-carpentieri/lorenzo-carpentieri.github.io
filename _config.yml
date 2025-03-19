@@ -201,8 +201,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Carpentieri]
+  first_name: [Lorenzo]
 
   style: apa
   locale: en
@@ -562,12 +562,12 @@ jekyll_get_json:
 
 jsonresume:
   - basics
-  - work
+  # - work
   - education
   - publications
   - projects
-  - volunteer
-  - awards
+  # - volunteer
+  # - awards
   - certificates
   - skills
   - languages
