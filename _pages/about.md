@@ -2,7 +2,7 @@
 layout: about
 title: About me
 permalink: /
-subtitle: PhD Student in  <a href='https://github.com/unisa-hpc/'>HPC at University of Salerno<a>.  <b>Always motivated, never stressed!</b>
+subtitle: PhD Student in  <a href='https://github.com/unisa-hpc/'>HPC at University of Salerno<a>.  <b>Always motivated, never stressed 🙃!</b>
 profile:
   align: right
   image: foto_personale.jpg
