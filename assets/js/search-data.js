@@ -49,6 +49,11 @@ ninja.data = [{
           description: "A framework to implement apporximate computing techniques on heterogeneous hardware.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
+            },},{id: "projects-synergy",
+          title: 'SYnergy',
+          description: "A power and energy interface for fine-grained and coarse grained frequency scalgin and energy profiling on AMD, Intel and NVIDIA GPUs  and Intel / AMD CPUs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
             },},{
         id: 'social-email',
         title: 'email',
