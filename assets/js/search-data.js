@@ -46,7 +46,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-syprox",
           title: 'SYprox',
-          description: "A framework for implementing applications with apporximate computing techniques on heterogeneous hardware.",
+          description: "A framework to implement apporximate computing techniques on heterogeneous hardware.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{
